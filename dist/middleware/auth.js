@@ -13,7 +13,7 @@ function authenticate(req, res, next) {
         req.user = { id: payload.userId, role: payload.role };
         next();
     }
-    catch (_a) {
+    catch {
         return res.status(401).json({ error: "Invalid token" });
     }
 }

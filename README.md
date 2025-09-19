@@ -100,4 +100,4 @@ All endpoints are prefixed with `/api`.
     npm run dev
     ```
 
-The API server will be available at `http://localhost:4000`.
+The API server will be available at `http://localhost:3000`.
