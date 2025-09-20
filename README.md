@@ -26,6 +26,7 @@ This is the backend server for the "Sweet Escape" application. It's a robust Nod
 -   **Database ORM**: Prisma
 -   **Authentication**: JWT (jsonwebtoken)
 -   **Password Hashing**: bcrypt
+-   **validation**: zod
 
 ## 🗄️ Database Schema
 
@@ -70,7 +71,7 @@ All endpoints are prefixed with `/api`.
 
 1.  **Navigate to the backend directory:**
     ```bash
-    cd sweet_shop/back
+    cd sweet-escape-backend
     ```
 
 2.  **Install dependencies:**
@@ -83,6 +84,7 @@ All endpoints are prefixed with `/api`.
     -   Add your `DATABASE_URL` to the `.env` file. For example, for PostgreSQL:
         ```
         DATABASE_URL="postgresql://USER:PASSWORD@HOST:PORT/DATABASE?schema=public"
+     I used Avien postgresql url
         ```
     -   Add a `JWT_SECRET`:
         ```
@@ -100,4 +102,4 @@ All endpoints are prefixed with `/api`.
     npm run dev
     ```
 
-The API server will be available at `http://localhost:3000`.
+The API server will be available at `http://localhost:4000`.
