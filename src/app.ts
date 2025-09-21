@@ -4,7 +4,6 @@ import morgan from 'morgan';
 import dotenv from 'dotenv';
 import authRoutes from './routes/auth';
 import sweetsRoutes from './routes/sweets';
-import { authenticate } from './middleware/auth';
 import purchasesRoutes from './routes/purchases';
 
 
