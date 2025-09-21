@@ -13,7 +13,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "This is the backend server for the \"Sweet Escape\" application. It's a robust Node.js API built with Express and TypeScript, designed to handle authentication, inventory management, and purchase logging. It uses Prisma as its ORM for seamless database interaction.",
   "devDependencies": {
     "@types/bcrypt": "^6.0.0",
     "@types/cors": "^2.8.19",
@@ -34,5 +34,13 @@
     "jsonwebtoken": "^9.0.2",
     "morgan": "^1.10.1",
     "zod": "^4.1.9"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Praxxav/sweet-escape-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Praxxav/sweet-escape-backend/issues"
+  },
+  "homepage": "https://github.com/Praxxav/sweet-escape-backend#readme"
 }
